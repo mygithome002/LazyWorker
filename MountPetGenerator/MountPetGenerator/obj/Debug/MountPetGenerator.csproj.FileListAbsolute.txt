@@ -1,0 +1,10 @@
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\bin\Debug\MountPetGenerator.exe.config
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\bin\Debug\MountPetGenerator.exe
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\bin\Debug\MountPetGenerator.pdb
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.Form1.resources
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.Properties.Resources.resources
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.csproj.GenerateResource.Cache
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.exe
+C:\Users\Phil1\Documents\Visual Studio 2017\Projects\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.pdb
+C:\Users\Phil1\documents\visual studio 2017\Projects\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.Form2.resources

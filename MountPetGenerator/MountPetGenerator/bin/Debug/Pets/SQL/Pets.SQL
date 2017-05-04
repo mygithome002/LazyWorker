@@ -1,0 +1,14 @@
+INSERT INTO `pets` VALUES (131650,66984,45527,0,"Baneling",NULL,"ability_pet_baneling",6654);
+INSERT INTO `pets` VALUES (135261,68666,46902,0,"Ashstone Core",NULL,"inv_misc_gem_x4_metagem_uncut",6325);
+INSERT INTO `pets` VALUES (148046,73533,40908,0,"Ashleaft Spriteling",NULL,"Spell_Nature_DryadDispelMagic",41);
+INSERT INTO `pets` VALUES (148047,73534,51413,0,"Azure Crane Chick",NULL,"inv_pet_babycrane",6507);
+INSERT INTO `pets` VALUES (148049,73352,51268,0,"Blackfuse Bombling",NULL,"achievement_boss_siegecrafter_blackfuse",8155);
+INSERT INTO `pets` VALUES (148068,73542,51742,0,"Ashwing Moth",NULL,"ability_hunter_pet_moth",3480);
+INSERT INTO `pets` VALUES (167389,83584,57823,0,"Autumnal Sproutling",NULL,"inv_pet_battlepettraining",6701);
+INSERT INTO `pets` VALUES (171552,85872,38473,0,"Blazing Cindercrawler",NULL,"inv_helm_circlet_firelands_d_01",5901);
+INSERT INTO `pets` VALUES (179832,90203,61890,0,"Fragment of Anger",NULL,"inv_pet_reliquaryanger",10123);
+INSERT INTO `pets` VALUES (179833,90204,61891,0,"Fragment of Suffering",NULL,"inv_pet_reliquarysuffering",10124);
+INSERT INTO `pets` VALUES (179834,90205,61889,0,"Fragment of Desire",NULL,"inv_pet_reliquarydesire",10125);
+INSERT INTO `pets` VALUES (204148,103159,68067,0,"Baby Winston",NULL,"inv_pet_babywinston",10531);
+INSERT INTO `pets` VALUES (89670,48242,36220,0,"Armadillo Pup",NULL,"inv_misc_babyarmadillopet",5262);
+INSERT INTO `pets` VALUES (90637,48641,33217,0,"Fox Kit",NULL,"inv_misc_foxkit",5355);
