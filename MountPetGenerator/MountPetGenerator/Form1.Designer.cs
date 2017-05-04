@@ -107,25 +107,6 @@
             this.txtItemSetBaseEntry = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.cbxItemSetBaseMultiplier = new System.Windows.Forms.ComboBox();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.txtTitleMale = new System.Windows.Forms.TextBox();
-            this.txtTitleFemale = new System.Windows.Forms.TextBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.txtTitleID = new System.Windows.Forms.TextBox();
-            this.btnTitleLeft = new System.Windows.Forms.Button();
-            this.btnTitleRight = new System.Windows.Forms.Button();
-            this.btnTitleCLeft = new System.Windows.Forms.Button();
-            this.btnTitleCRight = new System.Windows.Forms.Button();
-            this.btnGenerateTitle = new System.Windows.Forms.Button();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.btnTitleConstruct = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -158,6 +139,26 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.btnTitleConstruct = new System.Windows.Forms.Button();
+            this.btnGenerateTitle = new System.Windows.Forms.Button();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.txtTitleID = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.btnTitleCRight = new System.Windows.Forms.Button();
+            this.btnTitleCLeft = new System.Windows.Forms.Button();
+            this.btnTitleRight = new System.Windows.Forms.Button();
+            this.btnTitleLeft = new System.Windows.Forms.Button();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.txtTitleFemale = new System.Windows.Forms.TextBox();
+            this.txtTitleMale = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.viggoLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -168,14 +169,14 @@
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox8.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.groupBox11.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -199,7 +200,8 @@
             // contributionToolStripMenuItem
             // 
             this.contributionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.callmephilToolStripMenuItem1});
+            this.callmephilToolStripMenuItem1,
+            this.viggoLToolStripMenuItem});
             this.contributionToolStripMenuItem.Name = "contributionToolStripMenuItem";
             this.contributionToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.contributionToolStripMenuItem.Text = "Contribution";
@@ -207,7 +209,7 @@
             // callmephilToolStripMenuItem1
             // 
             this.callmephilToolStripMenuItem1.Name = "callmephilToolStripMenuItem1";
-            this.callmephilToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
+            this.callmephilToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.callmephilToolStripMenuItem1.Text = "Callmephil";
             // 
             // helpToolStripMenuItem
@@ -259,7 +261,7 @@
             // philippe1994ToolStripMenuItem
             // 
             this.philippe1994ToolStripMenuItem.Name = "philippe1994ToolStripMenuItem";
-            this.philippe1994ToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.philippe1994ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.philippe1994ToolStripMenuItem.Text = "Philippe19-94";
             // 
             // tabControl1
@@ -947,192 +949,6 @@
             this.cbxItemSetBaseMultiplier.Size = new System.Drawing.Size(62, 21);
             this.cbxItemSetBaseMultiplier.TabIndex = 0;
             // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.btnTitleConstruct);
-            this.tabPage4.Controls.Add(this.btnGenerateTitle);
-            this.tabPage4.Controls.Add(this.groupBox8);
-            this.tabPage4.Controls.Add(this.groupBox7);
-            this.tabPage4.Controls.Add(this.groupBox6);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(450, 231);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Title Generator";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(450, 231);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Achievement Generator";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.label26);
-            this.groupBox6.Controls.Add(this.txtTitleFemale);
-            this.groupBox6.Controls.Add(this.txtTitleMale);
-            this.groupBox6.Controls.Add(this.label24);
-            this.groupBox6.Controls.Add(this.label23);
-            this.groupBox6.Location = new System.Drawing.Point(8, 3);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(301, 100);
-            this.groupBox6.TabIndex = 0;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Title Name";
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.btnTitleCRight);
-            this.groupBox7.Controls.Add(this.btnTitleCLeft);
-            this.groupBox7.Controls.Add(this.btnTitleRight);
-            this.groupBox7.Controls.Add(this.btnTitleLeft);
-            this.groupBox7.Enabled = false;
-            this.groupBox7.Location = new System.Drawing.Point(8, 109);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(301, 115);
-            this.groupBox7.TabIndex = 1;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Title Model";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(7, 20);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(90, 13);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Title Name Male :";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(6, 54);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(101, 13);
-            this.label24.TabIndex = 1;
-            this.label24.Text = "Title Name Female :";
-            // 
-            // txtTitleMale
-            // 
-            this.txtTitleMale.Location = new System.Drawing.Point(113, 17);
-            this.txtTitleMale.Name = "txtTitleMale";
-            this.txtTitleMale.Size = new System.Drawing.Size(177, 20);
-            this.txtTitleMale.TabIndex = 2;
-            // 
-            // txtTitleFemale
-            // 
-            this.txtTitleFemale.Location = new System.Drawing.Point(113, 51);
-            this.txtTitleFemale.Name = "txtTitleFemale";
-            this.txtTitleFemale.Size = new System.Drawing.Size(177, 20);
-            this.txtTitleFemale.TabIndex = 3;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.label27);
-            this.groupBox8.Controls.Add(this.txtTitleID);
-            this.groupBox8.Controls.Add(this.label25);
-            this.groupBox8.Location = new System.Drawing.Point(315, 3);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(127, 100);
-            this.groupBox8.TabIndex = 2;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Information";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(7, 17);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(24, 13);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "ID :";
-            // 
-            // txtTitleID
-            // 
-            this.txtTitleID.Location = new System.Drawing.Point(32, 14);
-            this.txtTitleID.Name = "txtTitleID";
-            this.txtTitleID.Size = new System.Drawing.Size(89, 20);
-            this.txtTitleID.TabIndex = 1;
-            this.txtTitleID.Text = "0";
-            // 
-            // btnTitleLeft
-            // 
-            this.btnTitleLeft.Location = new System.Drawing.Point(10, 19);
-            this.btnTitleLeft.Name = "btnTitleLeft";
-            this.btnTitleLeft.Size = new System.Drawing.Size(136, 23);
-            this.btnTitleLeft.TabIndex = 0;
-            this.btnTitleLeft.Text = "%s Title";
-            this.btnTitleLeft.UseVisualStyleBackColor = true;
-            // 
-            // btnTitleRight
-            // 
-            this.btnTitleRight.Location = new System.Drawing.Point(152, 19);
-            this.btnTitleRight.Name = "btnTitleRight";
-            this.btnTitleRight.Size = new System.Drawing.Size(143, 23);
-            this.btnTitleRight.TabIndex = 1;
-            this.btnTitleRight.Text = "Title %s";
-            this.btnTitleRight.UseVisualStyleBackColor = true;
-            // 
-            // btnTitleCLeft
-            // 
-            this.btnTitleCLeft.Location = new System.Drawing.Point(10, 48);
-            this.btnTitleCLeft.Name = "btnTitleCLeft";
-            this.btnTitleCLeft.Size = new System.Drawing.Size(136, 23);
-            this.btnTitleCLeft.TabIndex = 2;
-            this.btnTitleCLeft.Text = "%s, Title";
-            this.btnTitleCLeft.UseVisualStyleBackColor = true;
-            // 
-            // btnTitleCRight
-            // 
-            this.btnTitleCRight.Location = new System.Drawing.Point(152, 48);
-            this.btnTitleCRight.Name = "btnTitleCRight";
-            this.btnTitleCRight.Size = new System.Drawing.Size(143, 23);
-            this.btnTitleCRight.TabIndex = 3;
-            this.btnTitleCRight.Text = "Title, %s";
-            this.btnTitleCRight.UseVisualStyleBackColor = true;
-            // 
-            // btnGenerateTitle
-            // 
-            this.btnGenerateTitle.Location = new System.Drawing.Point(315, 172);
-            this.btnGenerateTitle.Name = "btnGenerateTitle";
-            this.btnGenerateTitle.Size = new System.Drawing.Size(127, 23);
-            this.btnGenerateTitle.TabIndex = 3;
-            this.btnGenerateTitle.Text = "Generate Title";
-            this.btnGenerateTitle.UseVisualStyleBackColor = true;
-            this.btnGenerateTitle.Click += new System.EventHandler(this.btnGenerateTitle_Click);
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(110, 74);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(142, 13);
-            this.label26.TabIndex = 4;
-            this.label26.Text = "Use Example : %s TitleName";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(29, 37);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(88, 13);
-            this.label27.TabIndex = 5;
-            this.label27.Text = "ID must be > 190";
-            // 
-            // btnTitleConstruct
-            // 
-            this.btnTitleConstruct.Location = new System.Drawing.Point(315, 201);
-            this.btnTitleConstruct.Name = "btnTitleConstruct";
-            this.btnTitleConstruct.Size = new System.Drawing.Size(127, 23);
-            this.btnTitleConstruct.TabIndex = 4;
-            this.btnTitleConstruct.Text = "Construct DBC";
-            this.btnTitleConstruct.UseVisualStyleBackColor = true;
-            this.btnTitleConstruct.Click += new System.EventHandler(this.btnTitleConstruct_Click);
-            // 
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.groupBox9);
@@ -1470,6 +1286,198 @@
             this.comboBox2.Size = new System.Drawing.Size(62, 21);
             this.comboBox2.TabIndex = 0;
             // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.btnTitleConstruct);
+            this.tabPage4.Controls.Add(this.btnGenerateTitle);
+            this.tabPage4.Controls.Add(this.groupBox8);
+            this.tabPage4.Controls.Add(this.groupBox7);
+            this.tabPage4.Controls.Add(this.groupBox6);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(450, 231);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Title Generator";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // btnTitleConstruct
+            // 
+            this.btnTitleConstruct.Location = new System.Drawing.Point(315, 201);
+            this.btnTitleConstruct.Name = "btnTitleConstruct";
+            this.btnTitleConstruct.Size = new System.Drawing.Size(127, 23);
+            this.btnTitleConstruct.TabIndex = 4;
+            this.btnTitleConstruct.Text = "Construct DBC";
+            this.btnTitleConstruct.UseVisualStyleBackColor = true;
+            this.btnTitleConstruct.Click += new System.EventHandler(this.btnTitleConstruct_Click);
+            // 
+            // btnGenerateTitle
+            // 
+            this.btnGenerateTitle.Location = new System.Drawing.Point(315, 172);
+            this.btnGenerateTitle.Name = "btnGenerateTitle";
+            this.btnGenerateTitle.Size = new System.Drawing.Size(127, 23);
+            this.btnGenerateTitle.TabIndex = 3;
+            this.btnGenerateTitle.Text = "Generate Title";
+            this.btnGenerateTitle.UseVisualStyleBackColor = true;
+            this.btnGenerateTitle.Click += new System.EventHandler(this.btnGenerateTitle_Click);
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.label27);
+            this.groupBox8.Controls.Add(this.txtTitleID);
+            this.groupBox8.Controls.Add(this.label25);
+            this.groupBox8.Location = new System.Drawing.Point(315, 3);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(127, 100);
+            this.groupBox8.TabIndex = 2;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Information";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(29, 37);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(88, 13);
+            this.label27.TabIndex = 5;
+            this.label27.Text = "ID must be > 190";
+            // 
+            // txtTitleID
+            // 
+            this.txtTitleID.Location = new System.Drawing.Point(32, 14);
+            this.txtTitleID.Name = "txtTitleID";
+            this.txtTitleID.Size = new System.Drawing.Size(89, 20);
+            this.txtTitleID.TabIndex = 1;
+            this.txtTitleID.Text = "0";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(7, 17);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(24, 13);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "ID :";
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.btnTitleCRight);
+            this.groupBox7.Controls.Add(this.btnTitleCLeft);
+            this.groupBox7.Controls.Add(this.btnTitleRight);
+            this.groupBox7.Controls.Add(this.btnTitleLeft);
+            this.groupBox7.Enabled = false;
+            this.groupBox7.Location = new System.Drawing.Point(8, 109);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(301, 115);
+            this.groupBox7.TabIndex = 1;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "Title Model";
+            // 
+            // btnTitleCRight
+            // 
+            this.btnTitleCRight.Location = new System.Drawing.Point(152, 48);
+            this.btnTitleCRight.Name = "btnTitleCRight";
+            this.btnTitleCRight.Size = new System.Drawing.Size(143, 23);
+            this.btnTitleCRight.TabIndex = 3;
+            this.btnTitleCRight.Text = "Title, %s";
+            this.btnTitleCRight.UseVisualStyleBackColor = true;
+            // 
+            // btnTitleCLeft
+            // 
+            this.btnTitleCLeft.Location = new System.Drawing.Point(10, 48);
+            this.btnTitleCLeft.Name = "btnTitleCLeft";
+            this.btnTitleCLeft.Size = new System.Drawing.Size(136, 23);
+            this.btnTitleCLeft.TabIndex = 2;
+            this.btnTitleCLeft.Text = "%s, Title";
+            this.btnTitleCLeft.UseVisualStyleBackColor = true;
+            // 
+            // btnTitleRight
+            // 
+            this.btnTitleRight.Location = new System.Drawing.Point(152, 19);
+            this.btnTitleRight.Name = "btnTitleRight";
+            this.btnTitleRight.Size = new System.Drawing.Size(143, 23);
+            this.btnTitleRight.TabIndex = 1;
+            this.btnTitleRight.Text = "Title %s";
+            this.btnTitleRight.UseVisualStyleBackColor = true;
+            // 
+            // btnTitleLeft
+            // 
+            this.btnTitleLeft.Location = new System.Drawing.Point(10, 19);
+            this.btnTitleLeft.Name = "btnTitleLeft";
+            this.btnTitleLeft.Size = new System.Drawing.Size(136, 23);
+            this.btnTitleLeft.TabIndex = 0;
+            this.btnTitleLeft.Text = "%s Title";
+            this.btnTitleLeft.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label26);
+            this.groupBox6.Controls.Add(this.txtTitleFemale);
+            this.groupBox6.Controls.Add(this.txtTitleMale);
+            this.groupBox6.Controls.Add(this.label24);
+            this.groupBox6.Controls.Add(this.label23);
+            this.groupBox6.Location = new System.Drawing.Point(8, 3);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(301, 100);
+            this.groupBox6.TabIndex = 0;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Title Name";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(110, 74);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(142, 13);
+            this.label26.TabIndex = 4;
+            this.label26.Text = "Use Example : %s TitleName";
+            // 
+            // txtTitleFemale
+            // 
+            this.txtTitleFemale.Location = new System.Drawing.Point(113, 51);
+            this.txtTitleFemale.Name = "txtTitleFemale";
+            this.txtTitleFemale.Size = new System.Drawing.Size(177, 20);
+            this.txtTitleFemale.TabIndex = 3;
+            // 
+            // txtTitleMale
+            // 
+            this.txtTitleMale.Location = new System.Drawing.Point(113, 17);
+            this.txtTitleMale.Name = "txtTitleMale";
+            this.txtTitleMale.Size = new System.Drawing.Size(177, 20);
+            this.txtTitleMale.TabIndex = 2;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(6, 54);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(101, 13);
+            this.label24.TabIndex = 1;
+            this.label24.Text = "Title Name Female :";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(7, 20);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(90, 13);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Title Name Male :";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(450, 231);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Achievement Generator";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // viggoLToolStripMenuItem
+            // 
+            this.viggoLToolStripMenuItem.Name = "viggoLToolStripMenuItem";
+            this.viggoLToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.viggoLToolStripMenuItem.Text = "ViggoL";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1498,12 +1506,6 @@
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
@@ -1511,6 +1513,12 @@
             this.groupBox10.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1648,6 +1656,7 @@
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ToolStripMenuItem viggoLToolStripMenuItem;
     }
 }
 
