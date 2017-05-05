@@ -32,6 +32,7 @@
             this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contributionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.callmephilToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.viggoLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aCWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.philippovitchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -158,9 +159,30 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.viggoLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.numGemPropID = new System.Windows.Forms.NumericUpDown();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.numGemDisplayID = new System.Windows.Forms.NumericUpDown();
+            this.label46 = new System.Windows.Forms.Label();
+            this.NumGemItemID = new System.Windows.Forms.NumericUpDown();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.txtGemName = new System.Windows.Forms.TextBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.cbxGemType2 = new System.Windows.Forms.ComboBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.cbxGemType1 = new System.Windows.Forms.ComboBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.numGemStats1 = new System.Windows.Forms.NumericUpDown();
+            this.numGemStats2 = new System.Windows.Forms.NumericUpDown();
+            this.btnGenerateGem = new System.Windows.Forms.Button();
+            this.cbxGemColor = new System.Windows.Forms.ComboBox();
+            this.label39 = new System.Windows.Forms.Label();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -180,6 +202,15 @@
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numGemPropID)).BeginInit();
+            this.groupBox14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numGemDisplayID)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumGemItemID)).BeginInit();
+            this.groupBox13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numGemStats1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numGemStats2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -212,8 +243,14 @@
             // callmephilToolStripMenuItem1
             // 
             this.callmephilToolStripMenuItem1.Name = "callmephilToolStripMenuItem1";
-            this.callmephilToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.callmephilToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
             this.callmephilToolStripMenuItem1.Text = "Callmephil";
+            // 
+            // viggoLToolStripMenuItem
+            // 
+            this.viggoLToolStripMenuItem.Name = "viggoLToolStripMenuItem";
+            this.viggoLToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.viggoLToolStripMenuItem.Text = "ViggoL";
             // 
             // helpToolStripMenuItem
             // 
@@ -264,7 +301,7 @@
             // philippe1994ToolStripMenuItem
             // 
             this.philippe1994ToolStripMenuItem.Name = "philippe1994ToolStripMenuItem";
-            this.philippe1994ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.philippe1994ToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.philippe1994ToolStripMenuItem.Text = "Philippe19-94";
             // 
             // tabControl1
@@ -274,9 +311,9 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
+            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Location = new System.Drawing.Point(0, 27);
             this.tabControl1.Name = "tabControl1";
@@ -1478,12 +1515,6 @@
             this.tabPage5.Text = "Achievement Generator";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // viggoLToolStripMenuItem
-            // 
-            this.viggoLToolStripMenuItem.Name = "viggoLToolStripMenuItem";
-            this.viggoLToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.viggoLToolStripMenuItem.Text = "ViggoL";
-            // 
             // tabPage7
             // 
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
@@ -1495,12 +1526,276 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.groupBox12);
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Size = new System.Drawing.Size(450, 231);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Gem Generator";
             this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.numGemPropID);
+            this.groupBox12.Controls.Add(this.groupBox14);
+            this.groupBox12.Controls.Add(this.label42);
+            this.groupBox12.Controls.Add(this.groupBox13);
+            this.groupBox12.Controls.Add(this.btnGenerateGem);
+            this.groupBox12.Controls.Add(this.cbxGemColor);
+            this.groupBox12.Controls.Add(this.label39);
+            this.groupBox12.Location = new System.Drawing.Point(8, 3);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(439, 221);
+            this.groupBox12.TabIndex = 0;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Gem Propreties";
+            // 
+            // numGemPropID
+            // 
+            this.numGemPropID.Location = new System.Drawing.Point(61, 24);
+            this.numGemPropID.Name = "numGemPropID";
+            this.numGemPropID.Size = new System.Drawing.Size(108, 20);
+            this.numGemPropID.TabIndex = 8;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.numGemDisplayID);
+            this.groupBox14.Controls.Add(this.label46);
+            this.groupBox14.Controls.Add(this.NumGemItemID);
+            this.groupBox14.Controls.Add(this.label45);
+            this.groupBox14.Controls.Add(this.label38);
+            this.groupBox14.Controls.Add(this.txtGemName);
+            this.groupBox14.Location = new System.Drawing.Point(9, 49);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(262, 166);
+            this.groupBox14.TabIndex = 7;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "SQL";
+            // 
+            // numGemDisplayID
+            // 
+            this.numGemDisplayID.Location = new System.Drawing.Point(78, 67);
+            this.numGemDisplayID.Name = "numGemDisplayID";
+            this.numGemDisplayID.Size = new System.Drawing.Size(174, 20);
+            this.numGemDisplayID.TabIndex = 11;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(6, 69);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(58, 13);
+            this.label46.TabIndex = 10;
+            this.label46.Text = "DisplayID :";
+            // 
+            // NumGemItemID
+            // 
+            this.NumGemItemID.Location = new System.Drawing.Point(78, 39);
+            this.NumGemItemID.Name = "NumGemItemID";
+            this.NumGemItemID.Size = new System.Drawing.Size(174, 20);
+            this.NumGemItemID.TabIndex = 9;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(6, 41);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(69, 13);
+            this.label45.TabIndex = 2;
+            this.label45.Text = "Gem ItemID :";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(6, 16);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(66, 13);
+            this.label38.TabIndex = 0;
+            this.label38.Text = "Gem Name :";
+            // 
+            // txtGemName
+            // 
+            this.txtGemName.Location = new System.Drawing.Point(78, 13);
+            this.txtGemName.Name = "txtGemName";
+            this.txtGemName.Size = new System.Drawing.Size(174, 20);
+            this.txtGemName.TabIndex = 1;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(6, 26);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(49, 13);
+            this.label42.TabIndex = 5;
+            this.label42.Text = "Gem ID :";
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.label44);
+            this.groupBox13.Controls.Add(this.cbxGemType2);
+            this.groupBox13.Controls.Add(this.label43);
+            this.groupBox13.Controls.Add(this.cbxGemType1);
+            this.groupBox13.Controls.Add(this.label40);
+            this.groupBox13.Controls.Add(this.label41);
+            this.groupBox13.Controls.Add(this.numGemStats1);
+            this.groupBox13.Controls.Add(this.numGemStats2);
+            this.groupBox13.Location = new System.Drawing.Point(277, 45);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(156, 141);
+            this.groupBox13.TabIndex = 4;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Stats Type";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(6, 73);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(47, 13);
+            this.label44.TabIndex = 7;
+            this.label44.Text = "Type #2";
+            // 
+            // cbxGemType2
+            // 
+            this.cbxGemType2.FormattingEnabled = true;
+            this.cbxGemType2.Items.AddRange(new object[] {
+            "45 - Spellpower",
+            "7 - Stamina",
+            "5 - Intellect",
+            "30 - Spell haste rating",
+            "3 - Agillity",
+            "4 - Strength",
+            "1 - Health",
+            "28 - Mele haste rating",
+            "38 - Attack Power",
+            "29 - Ranged haste rating",
+            "21 - Spell crit rating",
+            "19 - Mele crit rating",
+            "13 - Dodge",
+            "14 - Parry",
+            "20 - Ranged crit rating",
+            "12 - Defense",
+            "15 - Block",
+            "48 - Block Value",
+            "40 - Feral attack Power",
+            "37 - Expertise",
+            "39 - Ranged attack power",
+            "44 - Armor penetration",
+            "32 - Critical strike rating",
+            "36 - Haste rating ( all ) ( ranged, mele, spell )"});
+            this.cbxGemType2.Location = new System.Drawing.Point(59, 70);
+            this.cbxGemType2.Name = "cbxGemType2";
+            this.cbxGemType2.Size = new System.Drawing.Size(91, 21);
+            this.cbxGemType2.TabIndex = 6;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(6, 19);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(47, 13);
+            this.label43.TabIndex = 5;
+            this.label43.Text = "Type #1";
+            // 
+            // cbxGemType1
+            // 
+            this.cbxGemType1.FormattingEnabled = true;
+            this.cbxGemType1.Items.AddRange(new object[] {
+            "45 - Spellpower",
+            "7 - Stamina",
+            "5 - Intellect",
+            "30 - Spell haste rating",
+            "3 - Agillity",
+            "4 - Strength",
+            "1 - Health",
+            "28 - Mele haste rating",
+            "38 - Attack Power",
+            "29 - Ranged haste rating",
+            "21 - Spell crit rating",
+            "19 - Mele crit rating",
+            "13 - Dodge",
+            "14 - Parry",
+            "20 - Ranged crit rating",
+            "12 - Defense",
+            "15 - Block",
+            "48 - Block Value",
+            "40 - Feral attack Power",
+            "37 - Expertise",
+            "39 - Ranged attack power",
+            "44 - Armor penetration",
+            "32 - Critical strike rating",
+            "36 - Haste rating ( all ) ( ranged, mele, spell )"});
+            this.cbxGemType1.Location = new System.Drawing.Point(59, 16);
+            this.cbxGemType1.Name = "cbxGemType1";
+            this.cbxGemType1.Size = new System.Drawing.Size(91, 21);
+            this.cbxGemType1.TabIndex = 4;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(6, 45);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(47, 13);
+            this.label40.TabIndex = 0;
+            this.label40.Text = "Stats #1";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(6, 99);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(47, 13);
+            this.label41.TabIndex = 1;
+            this.label41.Text = "Stats #2";
+            // 
+            // numGemStats1
+            // 
+            this.numGemStats1.Location = new System.Drawing.Point(59, 43);
+            this.numGemStats1.Name = "numGemStats1";
+            this.numGemStats1.Size = new System.Drawing.Size(91, 20);
+            this.numGemStats1.TabIndex = 2;
+            // 
+            // numGemStats2
+            // 
+            this.numGemStats2.Location = new System.Drawing.Point(59, 97);
+            this.numGemStats2.Name = "numGemStats2";
+            this.numGemStats2.Size = new System.Drawing.Size(91, 20);
+            this.numGemStats2.TabIndex = 3;
+            // 
+            // btnGenerateGem
+            // 
+            this.btnGenerateGem.Location = new System.Drawing.Point(337, 192);
+            this.btnGenerateGem.Name = "btnGenerateGem";
+            this.btnGenerateGem.Size = new System.Drawing.Size(97, 23);
+            this.btnGenerateGem.TabIndex = 2;
+            this.btnGenerateGem.Text = "Generate Gem";
+            this.btnGenerateGem.UseVisualStyleBackColor = true;
+            // 
+            // cbxGemColor
+            // 
+            this.cbxGemColor.FormattingEnabled = true;
+            this.cbxGemColor.Items.AddRange(new object[] {
+            "1 - Meta",
+            "2 - Red",
+            "3 - Purple",
+            "4 - Yellow",
+            "5 - Orange",
+            "6 - Green",
+            "8 - Blue",
+            "9 - Prismatic"});
+            this.cbxGemColor.Location = new System.Drawing.Point(243, 23);
+            this.cbxGemColor.Name = "cbxGemColor";
+            this.cbxGemColor.Size = new System.Drawing.Size(88, 21);
+            this.cbxGemColor.TabIndex = 3;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(175, 26);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(62, 13);
+            this.label39.TabIndex = 2;
+            this.label39.Text = "Gem Color :";
             // 
             // tabPage9
             // 
@@ -1552,6 +1847,18 @@
             this.groupBox7.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numGemPropID)).EndInit();
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numGemDisplayID)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumGemItemID)).EndInit();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numGemStats1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numGemStats2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1693,6 +2000,28 @@
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.NumericUpDown numGemStats1;
+        private System.Windows.Forms.NumericUpDown numGemStats2;
+        private System.Windows.Forms.Button btnGenerateGem;
+        private System.Windows.Forms.ComboBox cbxGemColor;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.TextBox txtGemName;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.NumericUpDown numGemPropID;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.NumericUpDown numGemDisplayID;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.NumericUpDown NumGemItemID;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.ComboBox cbxGemType2;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.ComboBox cbxGemType1;
     }
 }
 
