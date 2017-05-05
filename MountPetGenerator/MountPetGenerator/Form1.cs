@@ -34,7 +34,8 @@ namespace MountPetGenerator
             CreatureID = txtPetCreatureID.Text;
             CreatureDisplayID = txtPetDisplayID.Text.Replace(" ", "");
 
-            PetGenerator.GeneratePetSQL(PetSpellID, PetSpellName, SpellIconID, SpellIcon, CreatureID, CreatureDisplayID);
+            PetGenerator.GeneratePetDBC(PetSpellID, PetSpellName, SpellIconID, SpellIcon, CreatureID, CreatureDisplayID);
+            PetGenerator.GeneratePetSQL(PetSpellID, PetSpellName, SpellIconID, SpellIcon, CreatureID, CreatureDisplayID); // listing
         }
 
         private void btnReset_Click(object sender, EventArgs e)
@@ -131,7 +132,7 @@ namespace MountPetGenerator
             type = cbxPvP.Checked;
 
             TierSetGenerator.GenerateTierSet(NameHead, NameShoulder, NameChest, NameHands, NameLegs, DisplayHead, DisplayShoulder, DisplayChest, DisplayHands, DisplayLegs,
-                BaseEntry, Class, type, Coeficient, itemsetID);
+                BaseEntry, Class, type, Coeficient, itemsetID, int.Parse(txtTierSetILvL.Text));
         }
 
         private void button1_Click(object sender, EventArgs e)

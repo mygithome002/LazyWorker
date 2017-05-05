@@ -158,7 +158,6 @@
             this.txtTitleMale = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
@@ -183,7 +182,10 @@
             this.btnGenerateGem = new System.Windows.Forms.Button();
             this.cbxGemColor = new System.Windows.Forms.ComboBox();
             this.label39 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.label47 = new System.Windows.Forms.Label();
+            this.txtTierSetILvL = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -924,6 +926,8 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.txtTierSetILvL);
+            this.groupBox3.Controls.Add(this.label47);
             this.groupBox3.Controls.Add(this.label16);
             this.groupBox3.Controls.Add(this.txtItemSetBaseEntry);
             this.groupBox3.Controls.Add(this.label14);
@@ -1506,15 +1510,6 @@
             this.label23.TabIndex = 0;
             this.label23.Text = "Title Name Male :";
             // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(450, 231);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Achievement Generator";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
             // tabPage7
             // 
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
@@ -1797,6 +1792,15 @@
             this.label39.TabIndex = 2;
             this.label39.Text = "Gem Color :";
             // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(450, 231);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Achievement Generator";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
             // tabPage9
             // 
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
@@ -1805,6 +1809,23 @@
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Enchant Generator";
             this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(6, 76);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(62, 13);
+            this.label47.TabIndex = 5;
+            this.label47.Text = "Item Level :";
+            // 
+            // txtTierSetILvL
+            // 
+            this.txtTierSetILvL.Location = new System.Drawing.Point(76, 73);
+            this.txtTierSetILvL.Name = "txtTierSetILvL";
+            this.txtTierSetILvL.Size = new System.Drawing.Size(77, 20);
+            this.txtTierSetILvL.TabIndex = 21;
+            this.txtTierSetILvL.Text = "0";
             // 
             // Form1
             // 
@@ -2022,6 +2043,8 @@
         private System.Windows.Forms.ComboBox cbxGemType2;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.ComboBox cbxGemType1;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.TextBox txtTierSetILvL;
     }
 }
 

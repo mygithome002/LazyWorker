@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4969A32A-F068-42DF-8A78-4753D65A405E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MountPetGenerator</RootNamespace>
-    <AssemblyName>MountPetGenerator</AssemblyName>
+    <RootNamespace>LazyWorkerTool</RootNamespace>
+    <AssemblyName>LazyWorkerTool</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -78,6 +78,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
