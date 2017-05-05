@@ -1538,6 +1538,7 @@
             this.groupBox12.Controls.Add(this.btnGenerateGem);
             this.groupBox12.Controls.Add(this.cbxGemColor);
             this.groupBox12.Controls.Add(this.label39);
+            this.groupBox12.Enabled = false;
             this.groupBox12.Location = new System.Drawing.Point(8, 3);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Size = new System.Drawing.Size(439, 221);
