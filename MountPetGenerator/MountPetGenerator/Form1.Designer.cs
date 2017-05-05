@@ -161,11 +161,8 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.numGemPropID = new System.Windows.Forms.NumericUpDown();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.numGemDisplayID = new System.Windows.Forms.NumericUpDown();
             this.label46 = new System.Windows.Forms.Label();
-            this.NumGemItemID = new System.Windows.Forms.NumericUpDown();
             this.label45 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.txtGemName = new System.Windows.Forms.TextBox();
@@ -177,8 +174,6 @@
             this.cbxGemType1 = new System.Windows.Forms.ComboBox();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.numGemStats1 = new System.Windows.Forms.NumericUpDown();
-            this.numGemStats2 = new System.Windows.Forms.NumericUpDown();
             this.btnGenerateGem = new System.Windows.Forms.Button();
             this.cbxGemColor = new System.Windows.Forms.ComboBox();
             this.label39 = new System.Windows.Forms.Label();
@@ -186,6 +181,15 @@
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.label47 = new System.Windows.Forms.Label();
             this.txtTierSetILvL = new System.Windows.Forms.TextBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.txtGemPropID = new System.Windows.Forms.TextBox();
+            this.txtGemStats1 = new System.Windows.Forms.TextBox();
+            this.txtGemStats2 = new System.Windows.Forms.TextBox();
+            this.cbxMultiStats = new System.Windows.Forms.CheckBox();
+            this.txtGemItemID = new System.Windows.Forms.TextBox();
+            this.txtGemDisplayID = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.cbxGemQuality = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -206,13 +210,8 @@
             this.groupBox6.SuspendLayout();
             this.tabPage8.SuspendLayout();
             this.groupBox12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numGemPropID)).BeginInit();
             this.groupBox14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numGemDisplayID)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NumGemItemID)).BeginInit();
             this.groupBox13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numGemStats1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numGemStats2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -1531,14 +1530,14 @@
             // 
             // groupBox12
             // 
-            this.groupBox12.Controls.Add(this.numGemPropID);
+            this.groupBox12.Controls.Add(this.txtGemPropID);
+            this.groupBox12.Controls.Add(this.label48);
             this.groupBox12.Controls.Add(this.groupBox14);
             this.groupBox12.Controls.Add(this.label42);
             this.groupBox12.Controls.Add(this.groupBox13);
             this.groupBox12.Controls.Add(this.btnGenerateGem);
             this.groupBox12.Controls.Add(this.cbxGemColor);
             this.groupBox12.Controls.Add(this.label39);
-            this.groupBox12.Enabled = false;
             this.groupBox12.Location = new System.Drawing.Point(8, 3);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Size = new System.Drawing.Size(439, 221);
@@ -1546,55 +1545,36 @@
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Gem Propreties";
             // 
-            // numGemPropID
-            // 
-            this.numGemPropID.Location = new System.Drawing.Point(61, 24);
-            this.numGemPropID.Name = "numGemPropID";
-            this.numGemPropID.Size = new System.Drawing.Size(108, 20);
-            this.numGemPropID.TabIndex = 8;
-            // 
             // groupBox14
             // 
-            this.groupBox14.Controls.Add(this.numGemDisplayID);
+            this.groupBox14.Controls.Add(this.cbxGemQuality);
+            this.groupBox14.Controls.Add(this.label49);
+            this.groupBox14.Controls.Add(this.txtGemDisplayID);
+            this.groupBox14.Controls.Add(this.txtGemItemID);
             this.groupBox14.Controls.Add(this.label46);
-            this.groupBox14.Controls.Add(this.NumGemItemID);
             this.groupBox14.Controls.Add(this.label45);
             this.groupBox14.Controls.Add(this.label38);
             this.groupBox14.Controls.Add(this.txtGemName);
             this.groupBox14.Location = new System.Drawing.Point(9, 49);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(262, 166);
+            this.groupBox14.Size = new System.Drawing.Size(228, 166);
             this.groupBox14.TabIndex = 7;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "SQL";
             // 
-            // numGemDisplayID
-            // 
-            this.numGemDisplayID.Location = new System.Drawing.Point(78, 67);
-            this.numGemDisplayID.Name = "numGemDisplayID";
-            this.numGemDisplayID.Size = new System.Drawing.Size(174, 20);
-            this.numGemDisplayID.TabIndex = 11;
-            // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(6, 69);
+            this.label46.Location = new System.Drawing.Point(6, 98);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(58, 13);
             this.label46.TabIndex = 10;
             this.label46.Text = "DisplayID :";
             // 
-            // NumGemItemID
-            // 
-            this.NumGemItemID.Location = new System.Drawing.Point(78, 39);
-            this.NumGemItemID.Name = "NumGemItemID";
-            this.NumGemItemID.Size = new System.Drawing.Size(174, 20);
-            this.NumGemItemID.TabIndex = 9;
-            // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(6, 41);
+            this.label45.Location = new System.Drawing.Point(6, 70);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(69, 13);
             this.label45.TabIndex = 2;
@@ -1603,7 +1583,7 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(6, 16);
+            this.label38.Location = new System.Drawing.Point(6, 45);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(66, 13);
             this.label38.TabIndex = 0;
@@ -1611,9 +1591,9 @@
             // 
             // txtGemName
             // 
-            this.txtGemName.Location = new System.Drawing.Point(78, 13);
+            this.txtGemName.Location = new System.Drawing.Point(78, 42);
             this.txtGemName.Name = "txtGemName";
-            this.txtGemName.Size = new System.Drawing.Size(174, 20);
+            this.txtGemName.Size = new System.Drawing.Size(140, 20);
             this.txtGemName.TabIndex = 1;
             // 
             // label42
@@ -1627,17 +1607,18 @@
             // 
             // groupBox13
             // 
+            this.groupBox13.Controls.Add(this.cbxMultiStats);
+            this.groupBox13.Controls.Add(this.txtGemStats2);
+            this.groupBox13.Controls.Add(this.txtGemStats1);
             this.groupBox13.Controls.Add(this.label44);
             this.groupBox13.Controls.Add(this.cbxGemType2);
             this.groupBox13.Controls.Add(this.label43);
             this.groupBox13.Controls.Add(this.cbxGemType1);
             this.groupBox13.Controls.Add(this.label40);
             this.groupBox13.Controls.Add(this.label41);
-            this.groupBox13.Controls.Add(this.numGemStats1);
-            this.groupBox13.Controls.Add(this.numGemStats2);
-            this.groupBox13.Location = new System.Drawing.Point(277, 45);
+            this.groupBox13.Location = new System.Drawing.Point(243, 45);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(156, 141);
+            this.groupBox13.Size = new System.Drawing.Size(190, 141);
             this.groupBox13.TabIndex = 4;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Stats Type";
@@ -1653,6 +1634,7 @@
             // 
             // cbxGemType2
             // 
+            this.cbxGemType2.Enabled = false;
             this.cbxGemType2.FormattingEnabled = true;
             this.cbxGemType2.Items.AddRange(new object[] {
             "45 - Spellpower",
@@ -1681,7 +1663,7 @@
             "36 - Haste rating ( all ) ( ranged, mele, spell )"});
             this.cbxGemType2.Location = new System.Drawing.Point(59, 70);
             this.cbxGemType2.Name = "cbxGemType2";
-            this.cbxGemType2.Size = new System.Drawing.Size(91, 21);
+            this.cbxGemType2.Size = new System.Drawing.Size(125, 21);
             this.cbxGemType2.TabIndex = 6;
             // 
             // label43
@@ -1723,7 +1705,7 @@
             "36 - Haste rating ( all ) ( ranged, mele, spell )"});
             this.cbxGemType1.Location = new System.Drawing.Point(59, 16);
             this.cbxGemType1.Name = "cbxGemType1";
-            this.cbxGemType1.Size = new System.Drawing.Size(91, 21);
+            this.cbxGemType1.Size = new System.Drawing.Size(125, 21);
             this.cbxGemType1.TabIndex = 4;
             // 
             // label40
@@ -1744,20 +1726,6 @@
             this.label41.TabIndex = 1;
             this.label41.Text = "Stats #2";
             // 
-            // numGemStats1
-            // 
-            this.numGemStats1.Location = new System.Drawing.Point(59, 43);
-            this.numGemStats1.Name = "numGemStats1";
-            this.numGemStats1.Size = new System.Drawing.Size(91, 20);
-            this.numGemStats1.TabIndex = 2;
-            // 
-            // numGemStats2
-            // 
-            this.numGemStats2.Location = new System.Drawing.Point(59, 97);
-            this.numGemStats2.Name = "numGemStats2";
-            this.numGemStats2.Size = new System.Drawing.Size(91, 20);
-            this.numGemStats2.TabIndex = 3;
-            // 
             // btnGenerateGem
             // 
             this.btnGenerateGem.Location = new System.Drawing.Point(337, 192);
@@ -1766,6 +1734,7 @@
             this.btnGenerateGem.TabIndex = 2;
             this.btnGenerateGem.Text = "Generate Gem";
             this.btnGenerateGem.UseVisualStyleBackColor = true;
+            this.btnGenerateGem.Click += new System.EventHandler(this.btnGenerateGem_Click);
             // 
             // cbxGemColor
             // 
@@ -1773,12 +1742,12 @@
             this.cbxGemColor.Items.AddRange(new object[] {
             "1 - Meta",
             "2 - Red",
-            "3 - Purple",
             "4 - Yellow",
-            "5 - Orange",
-            "6 - Green",
+            "6 - Orange",
             "8 - Blue",
-            "9 - Prismatic"});
+            "10 - Purple",
+            "12 - Green",
+            "14 - ??"});
             this.cbxGemColor.Location = new System.Drawing.Point(243, 23);
             this.cbxGemColor.Name = "cbxGemColor";
             this.cbxGemColor.Size = new System.Drawing.Size(88, 21);
@@ -1828,6 +1797,92 @@
             this.txtTierSetILvL.TabIndex = 21;
             this.txtTierSetILvL.Text = "0";
             // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(350, 26);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(61, 13);
+            this.label48.TabIndex = 9;
+            this.label48.Text = "* ID > 4000";
+            // 
+            // txtGemPropID
+            // 
+            this.txtGemPropID.Location = new System.Drawing.Point(61, 23);
+            this.txtGemPropID.Name = "txtGemPropID";
+            this.txtGemPropID.Size = new System.Drawing.Size(108, 20);
+            this.txtGemPropID.TabIndex = 10;
+            this.txtGemPropID.Text = "0";
+            // 
+            // txtGemStats1
+            // 
+            this.txtGemStats1.Location = new System.Drawing.Point(59, 42);
+            this.txtGemStats1.Name = "txtGemStats1";
+            this.txtGemStats1.Size = new System.Drawing.Size(125, 20);
+            this.txtGemStats1.TabIndex = 8;
+            this.txtGemStats1.Text = "0";
+            // 
+            // txtGemStats2
+            // 
+            this.txtGemStats2.Enabled = false;
+            this.txtGemStats2.Location = new System.Drawing.Point(59, 96);
+            this.txtGemStats2.Name = "txtGemStats2";
+            this.txtGemStats2.Size = new System.Drawing.Size(125, 20);
+            this.txtGemStats2.TabIndex = 9;
+            this.txtGemStats2.Text = "0";
+            // 
+            // cbxMultiStats
+            // 
+            this.cbxMultiStats.AutoSize = true;
+            this.cbxMultiStats.Location = new System.Drawing.Point(59, 118);
+            this.cbxMultiStats.Name = "cbxMultiStats";
+            this.cbxMultiStats.Size = new System.Drawing.Size(75, 17);
+            this.cbxMultiStats.TabIndex = 10;
+            this.cbxMultiStats.Text = "Multi Stats";
+            this.cbxMultiStats.UseVisualStyleBackColor = true;
+            this.cbxMultiStats.CheckedChanged += new System.EventHandler(this.cbxMultiStats_CheckedChanged);
+            // 
+            // txtGemItemID
+            // 
+            this.txtGemItemID.Location = new System.Drawing.Point(78, 67);
+            this.txtGemItemID.Name = "txtGemItemID";
+            this.txtGemItemID.Size = new System.Drawing.Size(140, 20);
+            this.txtGemItemID.TabIndex = 12;
+            this.txtGemItemID.Text = "0";
+            // 
+            // txtGemDisplayID
+            // 
+            this.txtGemDisplayID.Location = new System.Drawing.Point(78, 95);
+            this.txtGemDisplayID.Name = "txtGemDisplayID";
+            this.txtGemDisplayID.Size = new System.Drawing.Size(140, 20);
+            this.txtGemDisplayID.TabIndex = 13;
+            this.txtGemDisplayID.Text = "0";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(7, 20);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(68, 13);
+            this.label49.TabIndex = 14;
+            this.label49.Text = "Item Quality :";
+            // 
+            // cbxGemQuality
+            // 
+            this.cbxGemQuality.FormattingEnabled = true;
+            this.cbxGemQuality.Items.AddRange(new object[] {
+            "0 - Poor",
+            "1 - Common",
+            "2 - Uncommon",
+            "3 - Rare",
+            "4 - Epic",
+            "5 - Legendary",
+            "6 - Artifact"});
+            this.cbxGemQuality.Location = new System.Drawing.Point(78, 17);
+            this.cbxGemQuality.Name = "cbxGemQuality";
+            this.cbxGemQuality.Size = new System.Drawing.Size(82, 21);
+            this.cbxGemQuality.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1872,15 +1927,10 @@
             this.tabPage8.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numGemPropID)).EndInit();
             this.groupBox14.ResumeLayout(false);
             this.groupBox14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numGemDisplayID)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NumGemItemID)).EndInit();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numGemStats1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numGemStats2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2026,18 +2076,13 @@
         private System.Windows.Forms.GroupBox groupBox13;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.NumericUpDown numGemStats1;
-        private System.Windows.Forms.NumericUpDown numGemStats2;
         private System.Windows.Forms.Button btnGenerateGem;
         private System.Windows.Forms.ComboBox cbxGemColor;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.TextBox txtGemName;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.NumericUpDown numGemPropID;
         private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.NumericUpDown numGemDisplayID;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.NumericUpDown NumGemItemID;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label44;
@@ -2046,6 +2091,15 @@
         private System.Windows.Forms.ComboBox cbxGemType1;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.TextBox txtTierSetILvL;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.TextBox txtGemPropID;
+        private System.Windows.Forms.CheckBox cbxMultiStats;
+        private System.Windows.Forms.TextBox txtGemStats2;
+        private System.Windows.Forms.TextBox txtGemStats1;
+        private System.Windows.Forms.TextBox txtGemDisplayID;
+        private System.Windows.Forms.TextBox txtGemItemID;
+        private System.Windows.Forms.ComboBox cbxGemQuality;
+        private System.Windows.Forms.Label label49;
     }
 }
 

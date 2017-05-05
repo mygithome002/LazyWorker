@@ -58,10 +58,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="GemGenerator.cs" />
     <Compile Include="MountGenerator.cs" />
     <Compile Include="PetGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubstringExtension.cs" />
     <Compile Include="TierSetGenerator.cs" />
     <Compile Include="TitleGenerator.cs" />
     <EmbeddedResource Include="Form1.resx">

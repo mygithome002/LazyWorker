@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LazyWorkerTool;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -158,6 +159,30 @@ namespace MountPetGenerator
         private void btnTitleConstruct_Click(object sender, EventArgs e)
         {
             TitleGenerator.TitleMergeToDbc();
+        }
+
+        private void btnGenerateGem_Click(object sender, EventArgs e)
+        {
+            int GemProperties;
+            GemProperties = int.Parse(txtGemPropID.Text);
+
+            GemGenerator.GenerateGem(GemProperties, cbxGemColor.Text);
+            GemGenerator.GenerateGemItemEnchantement(GemProperties, cbxGemType1.Text, txtGemStats1.Text, cbxGemType2.Text, txtGemStats2.Text, txtGemItemID.Text, cbxMultiStats.Checked);
+            GemGenerator.GenerateGemSQL(GemProperties, cbxGemColor.Text.After("- "), txtGemName.Text, int.Parse(txtGemItemID.Text), int.Parse(txtGemDisplayID.Text), cbxGemQuality.Text.Before(" -"));
+        }
+
+        private void cbxMultiStats_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbxMultiStats.Checked)
+            {
+                cbxGemType2.Enabled = true;
+                txtGemStats2.Enabled = true;
+            }
+            else
+            {
+                cbxGemType2.Enabled = false;
+                txtGemStats2.Enabled = false;
+            }
         }
     }
 }
