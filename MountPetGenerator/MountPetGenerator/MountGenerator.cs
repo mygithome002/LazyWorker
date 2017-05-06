@@ -57,6 +57,15 @@ namespace MountPetGenerator
                        "(" + CreatureID + ", 0, 0, 0, 0, 0," + CreatureDisplayID + ", 0, 0, 0, " + "\"" + SpellName + "\"" + ", NULL, NULL, 0, 2, 2, 0, 35, 0, 0.91, 1.14286, 1, 0, 0, 2000, 2200, 1, 1, 1, 0, 2048, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 3, 1, 1, 1, 1, 1, 1, 0, 140, 1, 0, 2, '', 27500); ");
             Creature_Model_SQL.AppendLine("INSERT INTO `creature_model_info` VALUES (" + CreatureDisplayID + "0, 0, 2, 0);");
 
+            if (!Directory.Exists(@".\Mounts"))
+            {
+                Directory.CreateDirectory(@".\Mounts");
+                Directory.CreateDirectory(@".\Mounts\enEN");
+                Directory.CreateDirectory(@".\Mounts\frFR");
+                Directory.CreateDirectory(@".\Mounts\SQL");
+                Directory.CreateDirectory(@".\Mounts\CPP");
+            }
+
             File.WriteAllText("./Mounts/frFR/Spell_" + SpellID + ".dbc.csv", SpellfrFR.ToString());
             File.WriteAllText("./Mounts/enEN/Spell_" + SpellID + ".dbc.csv", SpellenEN.ToString());
             File.WriteAllText("./Mounts/CPP/CoreScript.cpp", CoreScript.ToString());

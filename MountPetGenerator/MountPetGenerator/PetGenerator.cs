@@ -43,10 +43,17 @@ namespace MountPetGenerator
 
             CreatureModel.AppendLine("INSERT INTO `creature_model_info` Values (" + CreatureDisplayID + ",0, 0, 2, 0);");
 
+            if (!Directory.Exists(@".\Pet"))
+            {
+                Directory.CreateDirectory(@".\Pet\SQL");
+                Directory.CreateDirectory(@".\Pet\enEN");
+                Directory.CreateDirectory(@".\Pet\frFR");
+            }
+
             File.WriteAllText("./Pet/frFR/Spell.dbc.csv", frSpell.ToString());
             File.WriteAllText("./Pet/enEN/Spell.dbc.csv", enSpell.ToString());
-            File.WriteAllText("./SQL/Creature_Template_Pet.sql", CreatureSQL.ToString());
-            File.WriteAllText("./SQL/Creature_Model_Pet.sql", CreatureModel.ToString());
+            File.WriteAllText("./Pet/SQL/Creature_Template_Pet.sql", CreatureSQL.ToString());
+            File.WriteAllText("./Pet/SQL/Creature_Model_Pet.sql", CreatureModel.ToString());
         }
     }
 }

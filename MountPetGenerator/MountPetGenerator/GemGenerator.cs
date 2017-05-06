@@ -21,6 +21,14 @@ namespace LazyWorkerTool
             if (File.Exists(@".\Gems\GemProperties.dbc.csv"))
                 GemPropretiesCache = File.ReadAllText(@".\Gems\GemProperties.dbc.csv");
 
+            if (!Directory.Exists(@".\Gems"))
+            {
+                Directory.CreateDirectory(@".\Gems");
+                Directory.CreateDirectory(@".\Gems\enEN");
+                Directory.CreateDirectory(@".\Gems\frFR");
+                Directory.CreateDirectory(@".\Gems\SQL");
+            }
+
             GemProperties.AppendLine(PropretiesID + "," + PropretiesID + ",0,0," + GemColor.Before(" -"));
 
             File.WriteAllText(@".\Gems\GemProperties.dbc.csv", GemPropretiesCache + GemProperties.ToString());
