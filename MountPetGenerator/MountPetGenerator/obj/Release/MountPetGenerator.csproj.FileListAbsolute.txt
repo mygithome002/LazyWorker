@@ -14,8 +14,7 @@ C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPe
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Release\LazyWorkerTool.exe.config
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Release\LazyWorkerTool.exe
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Release\LazyWorkerTool.pdb
-C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Release\LazyWorkerTool.exe.CodeAnalysisLog.xml
-C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Release\LazyWorkerTool.exe.lastcodeanalysissucceeded
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Release\LazyWorkerTool.Properties.Resources.resources
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Release\LazyWorkerTool.exe
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Release\LazyWorkerTool.pdb
+C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Release\MountPetGenerator.csprojResolveAssemblyReference.cache

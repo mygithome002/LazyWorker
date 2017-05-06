@@ -190,6 +190,37 @@
             this.txtGemDisplayID = new System.Windows.Forms.TextBox();
             this.label49 = new System.Windows.Forms.Label();
             this.cbxGemQuality = new System.Windows.Forms.ComboBox();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.btnGenerateExte = new System.Windows.Forms.Button();
+            this.txtExteID = new System.Windows.Forms.TextBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.cbxArenaSlot = new System.Windows.Forms.ComboBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.txtExteReqItem1 = new System.Windows.Forms.TextBox();
+            this.txtExteReqItem2 = new System.Windows.Forms.TextBox();
+            this.txtExteReqItem3 = new System.Windows.Forms.TextBox();
+            this.txtExteReqItem4 = new System.Windows.Forms.TextBox();
+            this.txtExteReqItemCount1 = new System.Windows.Forms.TextBox();
+            this.txtExteReqItemCount2 = new System.Windows.Forms.TextBox();
+            this.txtExteReqItemCount4 = new System.Windows.Forms.TextBox();
+            this.txtExteReqItemCount3 = new System.Windows.Forms.TextBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.txtExteReqHonorCount = new System.Windows.Forms.TextBox();
+            this.txtExteReqArenaCount = new System.Windows.Forms.TextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.txtExteReqPersonalRating = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.txtExteReqItemCount5 = new System.Windows.Forms.TextBox();
+            this.txtExteReqItem5 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -208,10 +239,14 @@
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
             this.groupBox12.SuspendLayout();
             this.groupBox14.SuspendLayout();
             this.groupBox13.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.groupBox16.SuspendLayout();
+            this.groupBox17.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -1511,6 +1546,7 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.groupBox15);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Size = new System.Drawing.Size(450, 231);
@@ -1883,6 +1919,306 @@
             this.cbxGemQuality.Size = new System.Drawing.Size(82, 21);
             this.cbxGemQuality.TabIndex = 15;
             // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.groupBox17);
+            this.groupBox15.Controls.Add(this.groupBox16);
+            this.groupBox15.Controls.Add(this.label50);
+            this.groupBox15.Controls.Add(this.txtExteID);
+            this.groupBox15.Controls.Add(this.btnGenerateExte);
+            this.groupBox15.Location = new System.Drawing.Point(3, 3);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(444, 221);
+            this.groupBox15.TabIndex = 0;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "groupBox15";
+            // 
+            // btnGenerateExte
+            // 
+            this.btnGenerateExte.Location = new System.Drawing.Point(281, 192);
+            this.btnGenerateExte.Name = "btnGenerateExte";
+            this.btnGenerateExte.Size = new System.Drawing.Size(158, 23);
+            this.btnGenerateExte.TabIndex = 0;
+            this.btnGenerateExte.Text = "Generate ExtendedCost";
+            this.btnGenerateExte.UseVisualStyleBackColor = true;
+            this.btnGenerateExte.Click += new System.EventHandler(this.btnGenerateExte_Click);
+            // 
+            // txtExteID
+            // 
+            this.txtExteID.Location = new System.Drawing.Point(36, 19);
+            this.txtExteID.Name = "txtExteID";
+            this.txtExteID.Size = new System.Drawing.Size(98, 20);
+            this.txtExteID.TabIndex = 1;
+            this.txtExteID.Text = "0";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(6, 22);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(24, 13);
+            this.label50.TabIndex = 2;
+            this.label50.Text = "ID :";
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.Controls.Add(this.label61);
+            this.groupBox16.Controls.Add(this.txtExteReqItemCount5);
+            this.groupBox16.Controls.Add(this.txtExteReqItem5);
+            this.groupBox16.Controls.Add(this.label56);
+            this.groupBox16.Controls.Add(this.label55);
+            this.groupBox16.Controls.Add(this.label54);
+            this.groupBox16.Controls.Add(this.label53);
+            this.groupBox16.Controls.Add(this.label52);
+            this.groupBox16.Controls.Add(this.txtExteReqItemCount4);
+            this.groupBox16.Controls.Add(this.txtExteReqItemCount3);
+            this.groupBox16.Controls.Add(this.txtExteReqItemCount2);
+            this.groupBox16.Controls.Add(this.txtExteReqItemCount1);
+            this.groupBox16.Controls.Add(this.txtExteReqItem4);
+            this.groupBox16.Controls.Add(this.txtExteReqItem3);
+            this.groupBox16.Controls.Add(this.txtExteReqItem2);
+            this.groupBox16.Controls.Add(this.txtExteReqItem1);
+            this.groupBox16.Location = new System.Drawing.Point(6, 45);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(269, 170);
+            this.groupBox16.TabIndex = 3;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "Item Requirement";
+            // 
+            // groupBox17
+            // 
+            this.groupBox17.Controls.Add(this.label60);
+            this.groupBox17.Controls.Add(this.txtExteReqPersonalRating);
+            this.groupBox17.Controls.Add(this.label59);
+            this.groupBox17.Controls.Add(this.txtExteReqArenaCount);
+            this.groupBox17.Controls.Add(this.label58);
+            this.groupBox17.Controls.Add(this.txtExteReqHonorCount);
+            this.groupBox17.Controls.Add(this.label57);
+            this.groupBox17.Controls.Add(this.label51);
+            this.groupBox17.Controls.Add(this.cbxArenaSlot);
+            this.groupBox17.Location = new System.Drawing.Point(281, 19);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.Size = new System.Drawing.Size(163, 162);
+            this.groupBox17.TabIndex = 4;
+            this.groupBox17.TabStop = false;
+            this.groupBox17.Text = "PvP Requirement";
+            // 
+            // cbxArenaSlot
+            // 
+            this.cbxArenaSlot.FormattingEnabled = true;
+            this.cbxArenaSlot.Items.AddRange(new object[] {
+            "0 - 2v2",
+            "1 - 3v3/5v5",
+            "2 - 5v5"});
+            this.cbxArenaSlot.Location = new System.Drawing.Point(79, 45);
+            this.cbxArenaSlot.Name = "cbxArenaSlot";
+            this.cbxArenaSlot.Size = new System.Drawing.Size(78, 21);
+            this.cbxArenaSlot.TabIndex = 0;
+            this.cbxArenaSlot.Text = "0";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(7, 48);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(62, 13);
+            this.label51.TabIndex = 1;
+            this.label51.Text = "Arena Slot :";
+            // 
+            // txtExteReqItem1
+            // 
+            this.txtExteReqItem1.Location = new System.Drawing.Point(91, 42);
+            this.txtExteReqItem1.Name = "txtExteReqItem1";
+            this.txtExteReqItem1.Size = new System.Drawing.Size(118, 20);
+            this.txtExteReqItem1.TabIndex = 0;
+            this.txtExteReqItem1.Text = "0";
+            // 
+            // txtExteReqItem2
+            // 
+            this.txtExteReqItem2.Location = new System.Drawing.Point(91, 68);
+            this.txtExteReqItem2.Name = "txtExteReqItem2";
+            this.txtExteReqItem2.Size = new System.Drawing.Size(118, 20);
+            this.txtExteReqItem2.TabIndex = 1;
+            this.txtExteReqItem2.Text = "0";
+            // 
+            // txtExteReqItem3
+            // 
+            this.txtExteReqItem3.Location = new System.Drawing.Point(91, 94);
+            this.txtExteReqItem3.Name = "txtExteReqItem3";
+            this.txtExteReqItem3.Size = new System.Drawing.Size(118, 20);
+            this.txtExteReqItem3.TabIndex = 2;
+            this.txtExteReqItem3.Text = "0";
+            // 
+            // txtExteReqItem4
+            // 
+            this.txtExteReqItem4.Location = new System.Drawing.Point(91, 120);
+            this.txtExteReqItem4.Name = "txtExteReqItem4";
+            this.txtExteReqItem4.Size = new System.Drawing.Size(118, 20);
+            this.txtExteReqItem4.TabIndex = 3;
+            this.txtExteReqItem4.Text = "0";
+            // 
+            // txtExteReqItemCount1
+            // 
+            this.txtExteReqItemCount1.Location = new System.Drawing.Point(215, 42);
+            this.txtExteReqItemCount1.Name = "txtExteReqItemCount1";
+            this.txtExteReqItemCount1.Size = new System.Drawing.Size(39, 20);
+            this.txtExteReqItemCount1.TabIndex = 4;
+            this.txtExteReqItemCount1.Text = "0";
+            // 
+            // txtExteReqItemCount2
+            // 
+            this.txtExteReqItemCount2.Location = new System.Drawing.Point(215, 68);
+            this.txtExteReqItemCount2.Name = "txtExteReqItemCount2";
+            this.txtExteReqItemCount2.Size = new System.Drawing.Size(39, 20);
+            this.txtExteReqItemCount2.TabIndex = 5;
+            this.txtExteReqItemCount2.Text = "0";
+            // 
+            // txtExteReqItemCount4
+            // 
+            this.txtExteReqItemCount4.Location = new System.Drawing.Point(215, 120);
+            this.txtExteReqItemCount4.Name = "txtExteReqItemCount4";
+            this.txtExteReqItemCount4.Size = new System.Drawing.Size(39, 20);
+            this.txtExteReqItemCount4.TabIndex = 7;
+            this.txtExteReqItemCount4.Text = "0";
+            // 
+            // txtExteReqItemCount3
+            // 
+            this.txtExteReqItemCount3.Location = new System.Drawing.Point(215, 94);
+            this.txtExteReqItemCount3.Name = "txtExteReqItemCount3";
+            this.txtExteReqItemCount3.Size = new System.Drawing.Size(39, 20);
+            this.txtExteReqItemCount3.TabIndex = 6;
+            this.txtExteReqItemCount3.Text = "0";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(6, 45);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(72, 13);
+            this.label52.TabIndex = 8;
+            this.label52.Text = "Req Item #1 :";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(6, 71);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(72, 13);
+            this.label53.TabIndex = 9;
+            this.label53.Text = "Req Item #2 :";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(6, 97);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(72, 13);
+            this.label54.TabIndex = 10;
+            this.label54.Text = "Req Item #3 :";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(6, 123);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(72, 13);
+            this.label55.TabIndex = 11;
+            this.label55.Text = "Req Item #4 :";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(212, 26);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(41, 13);
+            this.label56.TabIndex = 12;
+            this.label56.Text = "[Count]";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(3, 20);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(75, 13);
+            this.label57.TabIndex = 2;
+            this.label57.Text = "Req Honor P :";
+            // 
+            // txtExteReqHonorCount
+            // 
+            this.txtExteReqHonorCount.Location = new System.Drawing.Point(79, 17);
+            this.txtExteReqHonorCount.Name = "txtExteReqHonorCount";
+            this.txtExteReqHonorCount.Size = new System.Drawing.Size(78, 20);
+            this.txtExteReqHonorCount.TabIndex = 3;
+            this.txtExteReqHonorCount.Text = "0";
+            // 
+            // txtExteReqArenaCount
+            // 
+            this.txtExteReqArenaCount.Location = new System.Drawing.Point(79, 77);
+            this.txtExteReqArenaCount.Name = "txtExteReqArenaCount";
+            this.txtExteReqArenaCount.Size = new System.Drawing.Size(78, 20);
+            this.txtExteReqArenaCount.TabIndex = 5;
+            this.txtExteReqArenaCount.Text = "0";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(7, 80);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(71, 13);
+            this.label58.TabIndex = 4;
+            this.label58.Text = "Req Arena P:";
+            // 
+            // txtExteReqPersonalRating
+            // 
+            this.txtExteReqPersonalRating.Location = new System.Drawing.Point(79, 106);
+            this.txtExteReqPersonalRating.Name = "txtExteReqPersonalRating";
+            this.txtExteReqPersonalRating.Size = new System.Drawing.Size(78, 20);
+            this.txtExteReqPersonalRating.TabIndex = 7;
+            this.txtExteReqPersonalRating.Text = "0";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(7, 109);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(72, 13);
+            this.label59.TabIndex = 6;
+            this.label59.Text = "Arena Rating:";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(104, 129);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(54, 13);
+            this.label60.TabIndex = 8;
+            this.label60.Text = "*P = Point";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(6, 147);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(72, 13);
+            this.label61.TabIndex = 15;
+            this.label61.Text = "Req Item #5 :";
+            // 
+            // txtExteReqItemCount5
+            // 
+            this.txtExteReqItemCount5.Location = new System.Drawing.Point(215, 144);
+            this.txtExteReqItemCount5.Name = "txtExteReqItemCount5";
+            this.txtExteReqItemCount5.Size = new System.Drawing.Size(39, 20);
+            this.txtExteReqItemCount5.TabIndex = 14;
+            this.txtExteReqItemCount5.Text = "0";
+            // 
+            // txtExteReqItem5
+            // 
+            this.txtExteReqItem5.Location = new System.Drawing.Point(91, 144);
+            this.txtExteReqItem5.Name = "txtExteReqItem5";
+            this.txtExteReqItem5.Size = new System.Drawing.Size(118, 20);
+            this.txtExteReqItem5.TabIndex = 13;
+            this.txtExteReqItem5.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1924,6 +2260,7 @@
             this.groupBox7.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
             this.tabPage8.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
@@ -1931,6 +2268,12 @@
             this.groupBox14.PerformLayout();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.groupBox16.ResumeLayout(false);
+            this.groupBox16.PerformLayout();
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox17.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2100,6 +2443,37 @@
         private System.Windows.Forms.TextBox txtGemItemID;
         private System.Windows.Forms.ComboBox cbxGemQuality;
         private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.GroupBox groupBox15;
+        private System.Windows.Forms.GroupBox groupBox17;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.TextBox txtExteReqPersonalRating;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.TextBox txtExteReqArenaCount;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.TextBox txtExteReqHonorCount;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.ComboBox cbxArenaSlot;
+        private System.Windows.Forms.GroupBox groupBox16;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.TextBox txtExteReqItemCount4;
+        private System.Windows.Forms.TextBox txtExteReqItemCount3;
+        private System.Windows.Forms.TextBox txtExteReqItemCount2;
+        private System.Windows.Forms.TextBox txtExteReqItemCount1;
+        private System.Windows.Forms.TextBox txtExteReqItem4;
+        private System.Windows.Forms.TextBox txtExteReqItem3;
+        private System.Windows.Forms.TextBox txtExteReqItem2;
+        private System.Windows.Forms.TextBox txtExteReqItem1;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.TextBox txtExteID;
+        private System.Windows.Forms.Button btnGenerateExte;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.TextBox txtExteReqItemCount5;
+        private System.Windows.Forms.TextBox txtExteReqItem5;
     }
 }
 

@@ -13,9 +13,8 @@ namespace MountPetGenerator
     {
         public static void GenerateTitle(string TitleNameMale, string TitleNameFemale, int ID, string Format)
         {
-            string frFR, enGB, esES, deDE, enUS, esMX, ruRU, Cache;
+            string frFR, enGB, esES, deDE, enUS, esMX, ruRU; // Cache;
             string result;
-            bool CacheExist;
 
             frFR = File.ReadAllText(@".\Titles\\Modified\\frFR\\CharTitles.dbc.csv");
             enGB = File.ReadAllText(@".\Titles\\Modified\\enGB\\CharTitles.dbc.csv");
@@ -25,8 +24,8 @@ namespace MountPetGenerator
             esMX = File.ReadAllText(@".\Titles\\Modified\\esMX\\CharTitles.dbc.csv");
             ruRU = File.ReadAllText(@".\Titles\\Modified\\ruRU\\CharTitles.dbc.csv");
 
-            if (File.Exists(@".\Titles\Modified\Cache\frFR\Chartitles.text"))
-                Cache = File.ReadAllText(@".\Titles\Modified\Cache\frFR\Chartitles.text");
+            //if (File.Exists(@".\Titles\Modified\Cache\frFR\Chartitles.text"))
+            //    Cache = File.ReadAllText(@".\Titles\Modified\Cache\frFR\Chartitles.text");
 
             result = "";
 

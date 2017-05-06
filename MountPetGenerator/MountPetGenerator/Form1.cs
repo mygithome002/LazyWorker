@@ -184,5 +184,13 @@ namespace MountPetGenerator
                 txtGemStats2.Enabled = false;
             }
         }
+
+        private void btnGenerateExte_Click(object sender, EventArgs e)
+        {
+            ExtendedCostGenerator.GenerateExtendedCost(txtExteID.Text, txtExteReqHonorCount.Text, txtExteReqArenaCount.Text, cbxArenaSlot.Text.Before(" -"),
+                txtExteReqItem1.Text, txtExteReqItemCount1.Text, txtExteReqItem2.Text, txtExteReqItemCount2.Text,
+                txtExteReqItem3.Text, txtExteReqItemCount3.Text, txtExteReqItem4.Text, txtExteReqItemCount4.Text,
+                txtExteReqItem5.Text, txtExteReqItemCount5.Text, txtExteReqPersonalRating.Text);
+        }
     }
 }
