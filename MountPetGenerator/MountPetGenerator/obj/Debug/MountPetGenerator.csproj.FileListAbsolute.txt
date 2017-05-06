@@ -18,3 +18,6 @@ C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPe
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.csproj.GenerateResource.Cache
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerTool.exe
 C:\Users\Phil1\Documents\Visual Studio 2017\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerTool.pdb
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Debug\LazyWorkerTool.exe.config
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerTool.exe
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerTool.pdb

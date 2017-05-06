@@ -1,0 +1,10 @@
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Debug\LazyWorkerTool.exe.config
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Debug\LazyWorkerTool.exe
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\bin\Debug\LazyWorkerTool.pdb
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.Form1.resources
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\MountPetGenerator.Form2.resources
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerTool.Properties.Resources.resources
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerGenerator.csproj.GenerateResource.Cache
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerTool.exe
+C:\Users\Philippe\Documents\Visual Studio 2015\Projects\LazyWorker\MountPetGenerator\MountPetGenerator\obj\Debug\LazyWorkerTool.pdb
