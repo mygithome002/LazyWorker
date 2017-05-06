@@ -61,8 +61,8 @@ namespace LazyWorkerTool
             }
             else
             {
-                enGBSpellItemEnchant.AppendLine("");
-                frFRSpellItemEnchant.AppendLine("");
+                enGBSpellItemEnchant.AppendLine(PropretiesID + ",0,5,5,0," + StatCoef1 + "," + StatCoef2 + ",0," + StatCoef1 + "," + StatCoef2 + ",0," + StatType1.Before(" -") + "," + StatType2.Before(" -") + ",0,DoubleQuote+ " + StatCoef1 + StatType1.After("-") + " and +" + StatCoef2 + StatType2.After("-") + "DoubleQuote,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16712190,0,0," + ItemID + ",0,0,0,0");
+                frFRSpellItemEnchant.AppendLine(PropretiesID + ",0,5,5,0," + StatCoef1 + "," + StatCoef2 + ",0," + StatCoef1 + "," + StatCoef2 + ",0," + StatType1.Before(" -") + "," + StatType2.Before(" -") + ",0,0,0,DoubleQuote+ " + StatCoef1 + StatType1.After("-") + " et +" + StatCoef2 + StatType2.After("-") + "DoubleQuote,0,0,0,0,0,0,0,0,0,0,0,0,0,16712190,0,0," + ItemID + ",0,0,0,0");
             }
 
             File.WriteAllText(@".\Gems\enEN\SpellItemEnchantment.dbc.csv", enGBSpellItemEnchantementCache + enGBSpellItemEnchant.ToString().Replace("DoubleQuote", "\""));
